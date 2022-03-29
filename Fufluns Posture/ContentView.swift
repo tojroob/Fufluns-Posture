@@ -12,6 +12,9 @@ struct ContentView: View {
         VStack{
             Text("Hello")
             Button("red"){}
+            HStack{
+                Text("SILYY")
+            }
         }
     }
 }
