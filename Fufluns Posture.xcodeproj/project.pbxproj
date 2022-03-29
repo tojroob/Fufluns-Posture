@@ -1,0 +1,612 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		44C46BF427F2937600D2FA75 /* Fufluns_PostureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */; };
+		44C46BF627F2937600D2FA75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46BF527F2937600D2FA75 /* ContentView.swift */; };
+		44C46BF827F2937800D2FA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C46BF727F2937800D2FA75 /* Assets.xcassets */; };
+		44C46BFB27F2937800D2FA75 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C46BFA27F2937800D2FA75 /* Preview Assets.xcassets */; };
+		44C46C0527F2937800D2FA75 /* Fufluns_PostureTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46C0427F2937800D2FA75 /* Fufluns_PostureTests.swift */; };
+		44C46C0F27F2937900D2FA75 /* Fufluns_PostureUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46C0E27F2937900D2FA75 /* Fufluns_PostureUITests.swift */; };
+		44C46C1127F2937900D2FA75 /* Fufluns_PostureUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46C1027F2937900D2FA75 /* Fufluns_PostureUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		44C46C0127F2937800D2FA75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C46BE827F2937600D2FA75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C46BEF27F2937600D2FA75;
+			remoteInfo = "Fufluns Posture";
+		};
+		44C46C0B27F2937800D2FA75 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 44C46BE827F2937600D2FA75 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 44C46BEF27F2937600D2FA75;
+			remoteInfo = "Fufluns Posture";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		44C46BF027F2937600D2FA75 /* Fufluns Posture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fufluns Posture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fufluns_PostureApp.swift; sourceTree = "<group>"; };
+		44C46BF527F2937600D2FA75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		44C46BF727F2937800D2FA75 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		44C46BFA27F2937800D2FA75 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		44C46C0027F2937800D2FA75 /* Fufluns PostureTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fufluns PostureTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C46C0427F2937800D2FA75 /* Fufluns_PostureTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fufluns_PostureTests.swift; sourceTree = "<group>"; };
+		44C46C0A27F2937800D2FA75 /* Fufluns PostureUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Fufluns PostureUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		44C46C0E27F2937900D2FA75 /* Fufluns_PostureUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fufluns_PostureUITests.swift; sourceTree = "<group>"; };
+		44C46C1027F2937900D2FA75 /* Fufluns_PostureUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fufluns_PostureUITestsLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		44C46BED27F2937600D2FA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C46BFD27F2937800D2FA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C46C0727F2937800D2FA75 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		44C46BE727F2937500D2FA75 = {
+			isa = PBXGroup;
+			children = (
+				44C46BF227F2937600D2FA75 /* Fufluns Posture */,
+				44C46C0327F2937800D2FA75 /* Fufluns PostureTests */,
+				44C46C0D27F2937900D2FA75 /* Fufluns PostureUITests */,
+				44C46BF127F2937600D2FA75 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		44C46BF127F2937600D2FA75 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				44C46BF027F2937600D2FA75 /* Fufluns Posture.app */,
+				44C46C0027F2937800D2FA75 /* Fufluns PostureTests.xctest */,
+				44C46C0A27F2937800D2FA75 /* Fufluns PostureUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		44C46BF227F2937600D2FA75 /* Fufluns Posture */ = {
+			isa = PBXGroup;
+			children = (
+				44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */,
+				44C46BF527F2937600D2FA75 /* ContentView.swift */,
+				44C46BF727F2937800D2FA75 /* Assets.xcassets */,
+				44C46BF927F2937800D2FA75 /* Preview Content */,
+			);
+			path = "Fufluns Posture";
+			sourceTree = "<group>";
+		};
+		44C46BF927F2937800D2FA75 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				44C46BFA27F2937800D2FA75 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		44C46C0327F2937800D2FA75 /* Fufluns PostureTests */ = {
+			isa = PBXGroup;
+			children = (
+				44C46C0427F2937800D2FA75 /* Fufluns_PostureTests.swift */,
+			);
+			path = "Fufluns PostureTests";
+			sourceTree = "<group>";
+		};
+		44C46C0D27F2937900D2FA75 /* Fufluns PostureUITests */ = {
+			isa = PBXGroup;
+			children = (
+				44C46C0E27F2937900D2FA75 /* Fufluns_PostureUITests.swift */,
+				44C46C1027F2937900D2FA75 /* Fufluns_PostureUITestsLaunchTests.swift */,
+			);
+			path = "Fufluns PostureUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		44C46BEF27F2937600D2FA75 /* Fufluns Posture */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C46C1427F2937900D2FA75 /* Build configuration list for PBXNativeTarget "Fufluns Posture" */;
+			buildPhases = (
+				44C46BEC27F2937600D2FA75 /* Sources */,
+				44C46BED27F2937600D2FA75 /* Frameworks */,
+				44C46BEE27F2937600D2FA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fufluns Posture";
+			productName = "Fufluns Posture";
+			productReference = 44C46BF027F2937600D2FA75 /* Fufluns Posture.app */;
+			productType = "com.apple.product-type.application";
+		};
+		44C46BFF27F2937800D2FA75 /* Fufluns PostureTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C46C1727F2937900D2FA75 /* Build configuration list for PBXNativeTarget "Fufluns PostureTests" */;
+			buildPhases = (
+				44C46BFC27F2937800D2FA75 /* Sources */,
+				44C46BFD27F2937800D2FA75 /* Frameworks */,
+				44C46BFE27F2937800D2FA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44C46C0227F2937800D2FA75 /* PBXTargetDependency */,
+			);
+			name = "Fufluns PostureTests";
+			productName = "Fufluns PostureTests";
+			productReference = 44C46C0027F2937800D2FA75 /* Fufluns PostureTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		44C46C0927F2937800D2FA75 /* Fufluns PostureUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 44C46C1A27F2937900D2FA75 /* Build configuration list for PBXNativeTarget "Fufluns PostureUITests" */;
+			buildPhases = (
+				44C46C0627F2937800D2FA75 /* Sources */,
+				44C46C0727F2937800D2FA75 /* Frameworks */,
+				44C46C0827F2937800D2FA75 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				44C46C0C27F2937800D2FA75 /* PBXTargetDependency */,
+			);
+			name = "Fufluns PostureUITests";
+			productName = "Fufluns PostureUITests";
+			productReference = 44C46C0A27F2937800D2FA75 /* Fufluns PostureUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		44C46BE827F2937600D2FA75 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1300;
+				LastUpgradeCheck = 1300;
+				TargetAttributes = {
+					44C46BEF27F2937600D2FA75 = {
+						CreatedOnToolsVersion = 13.0;
+					};
+					44C46BFF27F2937800D2FA75 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 44C46BEF27F2937600D2FA75;
+					};
+					44C46C0927F2937800D2FA75 = {
+						CreatedOnToolsVersion = 13.0;
+						TestTargetID = 44C46BEF27F2937600D2FA75;
+					};
+				};
+			};
+			buildConfigurationList = 44C46BEB27F2937600D2FA75 /* Build configuration list for PBXProject "Fufluns Posture" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 44C46BE727F2937500D2FA75;
+			productRefGroup = 44C46BF127F2937600D2FA75 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				44C46BEF27F2937600D2FA75 /* Fufluns Posture */,
+				44C46BFF27F2937800D2FA75 /* Fufluns PostureTests */,
+				44C46C0927F2937800D2FA75 /* Fufluns PostureUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		44C46BEE27F2937600D2FA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C46BFB27F2937800D2FA75 /* Preview Assets.xcassets in Resources */,
+				44C46BF827F2937800D2FA75 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C46BFE27F2937800D2FA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C46C0827F2937800D2FA75 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		44C46BEC27F2937600D2FA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C46BF627F2937600D2FA75 /* ContentView.swift in Sources */,
+				44C46BF427F2937600D2FA75 /* Fufluns_PostureApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C46BFC27F2937800D2FA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C46C0527F2937800D2FA75 /* Fufluns_PostureTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		44C46C0627F2937800D2FA75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				44C46C0F27F2937900D2FA75 /* Fufluns_PostureUITests.swift in Sources */,
+				44C46C1127F2937900D2FA75 /* Fufluns_PostureUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		44C46C0227F2937800D2FA75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C46BEF27F2937600D2FA75 /* Fufluns Posture */;
+			targetProxy = 44C46C0127F2937800D2FA75 /* PBXContainerItemProxy */;
+		};
+		44C46C0C27F2937800D2FA75 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 44C46BEF27F2937600D2FA75 /* Fufluns Posture */;
+			targetProxy = 44C46C0B27F2937800D2FA75 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		44C46C1227F2937900D2FA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		44C46C1327F2937900D2FA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		44C46C1527F2937900D2FA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fufluns Posture/Preview Content\"";
+				DEVELOPMENT_TEAM = DK5FSSK9Z2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tojroob.Fufluns-Posture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		44C46C1627F2937900D2FA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"Fufluns Posture/Preview Content\"";
+				DEVELOPMENT_TEAM = DK5FSSK9Z2;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tojroob.Fufluns-Posture";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		44C46C1827F2937900D2FA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK5FSSK9Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tojroob.Fufluns-PostureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fufluns Posture.app/Fufluns Posture";
+			};
+			name = Debug;
+		};
+		44C46C1927F2937900D2FA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK5FSSK9Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tojroob.Fufluns-PostureTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Fufluns Posture.app/Fufluns Posture";
+			};
+			name = Release;
+		};
+		44C46C1B27F2937900D2FA75 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK5FSSK9Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tojroob.Fufluns-PostureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fufluns Posture";
+			};
+			name = Debug;
+		};
+		44C46C1C27F2937900D2FA75 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = DK5FSSK9Z2;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.tojroob.Fufluns-PostureUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Fufluns Posture";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		44C46BEB27F2937600D2FA75 /* Build configuration list for PBXProject "Fufluns Posture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C46C1227F2937900D2FA75 /* Debug */,
+				44C46C1327F2937900D2FA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C46C1427F2937900D2FA75 /* Build configuration list for PBXNativeTarget "Fufluns Posture" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C46C1527F2937900D2FA75 /* Debug */,
+				44C46C1627F2937900D2FA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C46C1727F2937900D2FA75 /* Build configuration list for PBXNativeTarget "Fufluns PostureTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C46C1827F2937900D2FA75 /* Debug */,
+				44C46C1927F2937900D2FA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		44C46C1A27F2937900D2FA75 /* Build configuration list for PBXNativeTarget "Fufluns PostureUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				44C46C1B27F2937900D2FA75 /* Debug */,
+				44C46C1C27F2937900D2FA75 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 44C46BE827F2937600D2FA75 /* Project object */;
+}
