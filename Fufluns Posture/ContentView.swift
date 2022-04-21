@@ -8,15 +8,21 @@
 import SwiftUI
 
 struct ContentView: View {
+    @StateObject var delegate = NotificationDelegate()
+    
     var body: some View {
         VStack{
-            Text("Hello")
-            Button("red"){}
-            HStack{
-                Text("SILYY")
-                Text("Again")
-                Text("James was here")
+            Button(action: delegate.createNotification) {
+                Text("Notify User")
             }
+            .onAppear {
+                delegate.requestAuthorization()
+            }
+            Text("Notification Interactions \(delegate.notificationCounter)")
+            ProgressView(value: Float(delegate.notificationCounter), total: Float(10)) 
+                .progressViewStyle(DefaultProgressViewStyle())
+                .foregroundColor(Color.green)
+                .frame(width: 313, height: 10)
         }
     }
 }

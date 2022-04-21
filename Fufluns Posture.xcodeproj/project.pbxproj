@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		44AB3E60281116D10091296E /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB3E5F281116D10091296E /* Notification.swift */; };
 		44C46BF427F2937600D2FA75 /* Fufluns_PostureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */; };
 		44C46BF627F2937600D2FA75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46BF527F2937600D2FA75 /* ContentView.swift */; };
 		44C46BF827F2937800D2FA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C46BF727F2937800D2FA75 /* Assets.xcassets */; };
@@ -35,6 +36,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		44AB3E5F281116D10091296E /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
 		44C46BF027F2937600D2FA75 /* Fufluns Posture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fufluns Posture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fufluns_PostureApp.swift; sourceTree = "<group>"; };
 		44C46BF527F2937600D2FA75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -99,6 +101,7 @@
 				44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */,
 				44C46BF527F2937600D2FA75 /* ContentView.swift */,
 				DA097B6827F29CED00D600C6 /* Logic.swift */,
+				44AB3E5F281116D10091296E /* Notification.swift */,
 				44C46BF727F2937800D2FA75 /* Assets.xcassets */,
 				44C46BF927F2937800D2FA75 /* Preview Content */,
 			);
@@ -260,6 +263,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				44AB3E60281116D10091296E /* Notification.swift in Sources */,
 				44C46BF627F2937600D2FA75 /* ContentView.swift in Sources */,
 				DA097B6927F29CED00D600C6 /* Logic.swift in Sources */,
 				44C46BF427F2937600D2FA75 /* Fufluns_PostureApp.swift in Sources */,
