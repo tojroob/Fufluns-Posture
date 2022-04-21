@@ -12,7 +12,6 @@ import UserNotifications
 class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenterDelegate {
     
     @Published var notificationCounter = 0
-    @Published var notificationCount = 0
     
     override init() {
         super.init()
@@ -31,12 +30,10 @@ class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenter
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
-        if response.actionIdentifier == "Okay" {
+        if response.actionIdentifier == "Okay" { //logic goes here
             
             print("counter is " + String(notificationCounter))
             notificationCounter = notificationCounter + 1
-            notificationCount += 1
-            print("counter is now " + String(notificationCounter))
         }
         completionHandler()
     }
