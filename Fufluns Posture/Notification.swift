@@ -33,7 +33,8 @@ class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenter
         if response.actionIdentifier == "Okay" { //logic goes here
             
             print("counter is " + String(notificationCounter))
-            notificationCounter = notificationCounter + 1
+            notificationCounter += 1
+            settings.nOfNotifications += 1
         }
         completionHandler()
     }

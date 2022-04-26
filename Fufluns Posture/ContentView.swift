@@ -13,14 +13,16 @@ struct ContentView: View {
     
     var body: some View {
         VStack{
+            
             Text(settings.name)
             Button(action: delegate.createNotification) { //button creates notification, will eventually need to transition to timer
                 Text("Notify User")
             }
             .onAppear {
                 delegate.requestAuthorization()
+                
             }
-            Text("Notification Interactions \(delegate.notificationCounter) / \(settings.notificationcount)")
+            Text("Notification Interactions \(settings.nOfNotifications) / \(settings.notificationCount)") //(settings.nOfNotifications) (delegate.notificationCounter)
             ProgressView(value: Float(delegate.notificationCounter), total: Float(10)) 
                 .progressViewStyle(DefaultProgressViewStyle())
                 .foregroundColor(Color.green)

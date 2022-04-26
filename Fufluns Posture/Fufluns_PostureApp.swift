@@ -12,6 +12,8 @@ struct Fufluns_PostureApp: App {
     var body: some Scene {
         WindowGroup {
             ContentView()
+//                .environmentObject(User(count: 10)
+//                .environmentObject(NotificationDelegate())
         }
     }
 }
