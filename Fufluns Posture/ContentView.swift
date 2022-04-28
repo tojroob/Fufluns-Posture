@@ -8,22 +8,25 @@
 import SwiftUI
 
 struct ContentView: View {
-    @StateObject var delegate = NotificationDelegate()
-    @StateObject var settings = User(count: 10)//for now, init with hard coded five, when user sets their settings, replace hard code 10
+    @ObservedObject var settings = NotificationDelegate()
+    //@ObservedObject var settings = User()
+    
+    
     
     var body: some View {
+        
         VStack{
             
             Text(settings.name)
-            Button(action: delegate.createNotification) { //button creates notification, will eventually need to transition to timer
+            Button(action: settings.createNotification) { //button creates notification, will eventually need to transition to timer
                 Text("Notify User")
             }
             .onAppear {
-                delegate.requestAuthorization()
+                settings.requestAuthorization()
                 
             }
-            Text("Notification Interactions \(settings.nOfNotifications) / \(settings.notificationCount)") //(settings.nOfNotifications) (delegate.notificationCounter)
-            ProgressView(value: Float(delegate.notificationCounter), total: Float(10)) 
+            Text("Notification Interactions \(settings.notificationYesCounter) / \(settings.notificationMax)") //(settings.nOfNotifications) (delegate.notificationCounter)
+            ProgressView(value: Float(settings.notificationYesCounter), total: Float(10))
                 .progressViewStyle(DefaultProgressViewStyle())
                 .foregroundColor(Color.green)
                 .frame(width: 313, height: 10)

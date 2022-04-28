@@ -9,9 +9,16 @@ import Foundation
 import SwiftUI
 import UserNotifications
 
+
+
 class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenterDelegate {
     
-    @Published var notificationCounter = 0
+    @Published var notificationYesCounter = 0
+    @Published var name: String = "Hello User"
+    @Published var notificationMax: Int = 10
+    //@Published var nOfNotifications: Int = 0 // Value changes when user interacts app button (yes)
+    @Published var startTime: Date = Calendar.current.date(bySettingHour: 8, minute: 0, second: 0, of: Date())!
+    @Published var endTime: Date = Calendar.current.date(bySettingHour: 22, minute: 0, second: 0, of: Date())!
     
     override init() {
         super.init()
@@ -32,9 +39,9 @@ class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenter
         
         if response.actionIdentifier == "Okay" { //logic goes here
             
-            print("counter is " + String(notificationCounter))
-            notificationCounter += 1
-            settings.nOfNotifications += 1
+            print("counter is " + String(notificationYesCounter))
+            notificationYesCounter += 1
+            //notificationCount += 1
         }
         completionHandler()
     }
