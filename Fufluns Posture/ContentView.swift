@@ -15,22 +15,25 @@ struct ContentView: View {
     
     var body: some View {
         
-        VStack{
-            
-            Text(settings.name)
-            Button(action: settings.createNotification) { //button creates notification, will eventually need to transition to timer
-                Text("Notify User")
-            }
-            .onAppear {
-                settings.requestAuthorization()
-                
-            }
-            Text("Notification Interactions \(settings.notificationYesCounter) / \(settings.notificationMax)") //(settings.nOfNotifications) (delegate.notificationCounter)
-            ProgressView(value: Float(settings.notificationYesCounter), total: Float(10))
-                .progressViewStyle(DefaultProgressViewStyle())
-                .foregroundColor(Color.green)
-                .frame(width: 313, height: 10)
-        }
+//        TabView { //tabview won't update. why?
+            Homepage()
+//                .tabItem{
+//                    Button(action:{}){
+//                        Image(systemName: "leaf.fill")
+//                        Text("Home")
+//                    }
+//                }
+//
+//            Settings()
+//                .tabItem{
+//                    Button(action:{}){
+//                        Image(systemName: "person")
+//                        Text("Settings")
+//                    }
+//                }
+//        }
+        
+        
     }
 }
 
