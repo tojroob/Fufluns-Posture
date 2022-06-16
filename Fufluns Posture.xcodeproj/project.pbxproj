@@ -10,6 +10,7 @@
 		44122413281B3ED0005E4E6C /* Homepage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44122412281B3ED0005E4E6C /* Homepage.swift */; };
 		44122415281B401D005E4E6C /* Settings.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44122414281B401D005E4E6C /* Settings.swift */; };
 		44AB3E60281116D10091296E /* Notification.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44AB3E5F281116D10091296E /* Notification.swift */; };
+		44B6BF48285AFE4600560618 /* HealthGuide.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44B6BF47285AFE4600560618 /* HealthGuide.swift */; };
 		44C46BF427F2937600D2FA75 /* Fufluns_PostureApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */; };
 		44C46BF627F2937600D2FA75 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44C46BF527F2937600D2FA75 /* ContentView.swift */; };
 		44C46BF827F2937800D2FA75 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44C46BF727F2937800D2FA75 /* Assets.xcassets */; };
@@ -40,6 +41,7 @@
 		44122412281B3ED0005E4E6C /* Homepage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Homepage.swift; sourceTree = "<group>"; };
 		44122414281B401D005E4E6C /* Settings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Settings.swift; sourceTree = "<group>"; };
 		44AB3E5F281116D10091296E /* Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Notification.swift; sourceTree = "<group>"; };
+		44B6BF47285AFE4600560618 /* HealthGuide.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HealthGuide.swift; sourceTree = "<group>"; };
 		44C46BF027F2937600D2FA75 /* Fufluns Posture.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fufluns Posture.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fufluns_PostureApp.swift; sourceTree = "<group>"; };
 		44C46BF527F2937600D2FA75 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -102,6 +104,7 @@
 			children = (
 				44C46BF327F2937600D2FA75 /* Fufluns_PostureApp.swift */,
 				44C46BF527F2937600D2FA75 /* ContentView.swift */,
+				44B6BF47285AFE4600560618 /* HealthGuide.swift */,
 				44122414281B401D005E4E6C /* Settings.swift */,
 				44122412281B3ED0005E4E6C /* Homepage.swift */,
 				44AB3E5F281116D10091296E /* Notification.swift */,
@@ -270,6 +273,7 @@
 				44C46BF627F2937600D2FA75 /* ContentView.swift in Sources */,
 				44122413281B3ED0005E4E6C /* Homepage.swift in Sources */,
 				44C46BF427F2937600D2FA75 /* Fufluns_PostureApp.swift in Sources */,
+				44B6BF48285AFE4600560618 /* HealthGuide.swift in Sources */,
 				44122415281B401D005E4E6C /* Settings.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

@@ -21,7 +21,7 @@ struct Settings: View {
                 //Text("Profile")
                 HStack {
                     Text("Name")
-                    TextField("Your Name", text: $settings.name)
+                    //TextField("Your Name", text: $settings.name)//i think this line breaks the code
                         .foregroundColor(Color.gray)
                 }
             }

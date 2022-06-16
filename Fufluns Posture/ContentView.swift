@@ -14,24 +14,33 @@ struct ContentView: View {
     
     
     var body: some View {
-        
-//        TabView { //tabview won't update. why?
+        TabView { //tabview won't update. why?
+            
+            HealthGuide()
+                .tabItem{
+                    Button(action:{}){
+                        Image(systemName: "cross.case.fill")
+                        Text("Health Guide")
+                    }
+                }
+            
             Homepage()
-//                .tabItem{
-//                    Button(action:{}){
-//                        Image(systemName: "leaf.fill")
-//                        Text("Home")
-//                    }
-//                }
-//
-//            Settings()
-//                .tabItem{
-//                    Button(action:{}){
-//                        Image(systemName: "person")
-//                        Text("Settings")
-//                    }
-//                }
-//        }
+                .tabItem{
+                    Button(action:{}){
+                        Image(systemName: "leaf.fill")
+                        Text("Home")
+                    }
+                }
+
+            //Settings()
+            Settings()
+                .tabItem{
+                    Button(action:{}){
+                        Image(systemName: "person")
+                        Text("Settings")
+                    }
+                }
+        }
         
         
     }

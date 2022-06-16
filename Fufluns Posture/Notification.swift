@@ -41,10 +41,9 @@ class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenter
     
     func userNotificationCenter(_ center: UNUserNotificationCenter, didReceive response: UNNotificationResponse, withCompletionHandler completionHandler: @escaping () -> Void) {
         
-        if response.actionIdentifier == "Okay" { //logic goes here
-            
-            print("counter is " + String(notificationYesCounter))
+        if (response.actionIdentifier == "Okay" && notificationYesCounter < notificationMax) { //logic goes here
             notificationYesCounter += 1
+            print("counter is " + String(notificationYesCounter))
         }
         completionHandler()
     }
@@ -71,6 +70,7 @@ class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenter
     func notificationCompleteForDay() {
         if (notificationYesCounter/notificationMax == 1 && imageCounter <= 1) {
             imageCounter += 1
+            notificationYesCounter = 0
         }
     }
 }
