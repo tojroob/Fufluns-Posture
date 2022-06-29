@@ -10,10 +10,12 @@ import SwiftUI
 @main
 struct Fufluns_PostureApp: App {
     @StateObject var settings = NotificationDelegate()
+    //@StateObject var testing = Test()
     var body: some Scene {
         WindowGroup {
             ContentView()
                 .environmentObject(settings)
+                //.environmentObject(testing)
         }
     }
 }
