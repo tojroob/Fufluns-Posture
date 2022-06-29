@@ -9,9 +9,9 @@ import Foundation
 import SwiftUI
 
 struct Homepage: View {
-    @ObservedObject var settings = NotificationDelegate()
+    //@ObservedObject var settings = NotificationDelegate()
     //@ObservedObject var settings = User()
-    
+    @EnvironmentObject var settings: NotificationDelegate
     
     
     var body: some View {
@@ -21,6 +21,7 @@ struct Homepage: View {
         VStack{
             
             Text(settings.name == "" ? "Hello There (You)!" : "Hello \(settings.name)!")
+            
             Button(action: {settings.createNotification();
             settings.notificationCompleteForDay()
             }
@@ -48,5 +49,6 @@ struct Homepage: View {
 struct Homepage_Previews: PreviewProvider {
     static var previews: some View {
         Homepage()
+            .environmentObject(NotificationDelegate())
     }
 }

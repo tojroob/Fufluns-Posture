@@ -27,7 +27,9 @@ class NotificationDelegate: NSObject, ObservableObject, UNUserNotificationCenter
     override init() {
         super.init()
         UNUserNotificationCenter.current().delegate = self
+        
     }
+    
     
     func requestAuthorization() {
         UNUserNotificationCenter.current().requestAuthorization(options: [.alert,.badge,.sound]) {(_,_) in
